@@ -1,0 +1,17 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1">Reverse a linked list</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given head a linked list, the task is to reverse this list.</span></p>
+<p><span style="font-size: 18px;">The following is <strong>internal representation </strong>of every test case (</span><span style="font-size: 18px;">two inputs). <br></span><span style="font-size: 18px;"><strong>n</strong> : Size of the linked list<br></span><strong><span style="font-size: 18px;">value[] </span></strong><span style="font-size: 18px;">:&nbsp; An array of values that represents values of nodes.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 6, value[] = {1, 2, 3, 4, 5, 6}
+<strong>Output: </strong>6 5 4 3 2 1<strong>
+Explanation: </strong>The given linked list is<strong> </strong></span><span style="font-size: 18px;">1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6. </span><span style="font-size: 18px;">After reversing, it becomes 6-&gt;5-&gt;4-&gt;3-&gt;2-&gt;1.</span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 5, value[] =</span><strong><span style="font-size: 18px;"> </span></strong><span style="font-size: 18px;">{2, 7, 10, 9, 8} 
+<strong>Output: </strong>8 9 10 7 2<strong>
+Explanation: </strong>The given linked list is<strong> </strong></span><span style="font-size: 18px;">2-&gt;7-&gt;10-&gt;9-&gt;8. </span><span style="font-size: 18px;">After reversing, it becomes 8-&gt;9-&gt;10-&gt;7-&gt;2.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 1, value[] = {10}
+<strong>Output: </strong>10<strong>
+Explanation: </strong>For a single node list, the reverse would be same as original</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(n).<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 10<sup>4</sup></span></p>
+<p>&nbsp;</p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>VMWare</code>&nbsp;<code>Zoho</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Teradata</code>&nbsp;<code>Walmart</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Intuit</code>&nbsp;<code>Adobe</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Tejas Network</code>&nbsp;<code>Cisco</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Cognizant</code>&nbsp;<code>Mahindra Comviva</code>&nbsp;<code>IgniteWorld</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
