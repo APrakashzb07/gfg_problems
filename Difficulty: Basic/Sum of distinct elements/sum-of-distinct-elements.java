@@ -31,21 +31,28 @@ public class Main {
 // } Driver Code Ends
 
 
+
+
 //User function Template for Java
 
 
 class Solution {
     int findSum(int arr[], int n) {
         // code here
-        Set<Integer> al = new HashSet<>();
-        int s = 0;
-        for(int i = 0; i<n; i++){
-            al.add(arr[i]);
-        }
-        List<Integer> as = new ArrayList<>(al);
-        for(int i =0; i< as.size(); i++){
-            s += as.get(i);
+       int s=0;boolean isDistinct=true;
+        for(int i=0;i<n;i++){
+            for(int j=i-1;j>=0;j--){
+                if(arr[i]==arr[j]){
+                    isDistinct=false;
+                    break;
+                }
+            }
+            if(isDistinct==true){
+                s += arr[i];
+            }
+            isDistinct=true;
         }
         return s;
     }
+   
 }
