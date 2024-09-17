@@ -36,20 +36,17 @@ class Solution {
     void rearrange(ArrayList<Integer> arr) {
         // code here
         int s = arr.size();
-        
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
         
         for(int i = 0; i<s; i++){
-            if(arr.get(i) >= 0){
+            if(arr.get(i)>=0){
                 list1.add(arr.get(i));
             }
             else{
                 list2.add(arr.get(i));
             }
         }
-        
-        
         arr.clear();
         
         int s1 = list1.size();
@@ -63,6 +60,7 @@ class Solution {
             x++;
             y++;
         }
+        
         while(x<s1){
             arr.add(list1.get(x));
             x++;
@@ -71,6 +69,5 @@ class Solution {
             arr.add(list2.get(y));
             y++;
         }
-        
     }
 }
