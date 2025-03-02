@@ -16,7 +16,9 @@ class GFG {
             Solution obj = new Solution();
             obj.print_divisors(n);
             System.out.println();
-        }
+        
+System.out.println("~");
+}
     }
 }
 
@@ -26,18 +28,10 @@ class GFG {
 class Solution {
     public static void print_divisors(int n) {
         // code here
-        ArrayList<Integer> list = new ArrayList<>();
-        for(int i = 1; i*i<=n; i++){
-            if(n%i == 0){
-                list.add(i);
-                if(i != n/i){
-                    list.add(n/i);
-                }
+        for(int i = 1; i<= n; i++){
+            if(n % i == 0){
+                System.out.print(i+" ");
             }
-        }
-        Collections.sort(list);
-        for(int list2 : list){
-            System.out.print(list2+" ");
         }
     }
 }
